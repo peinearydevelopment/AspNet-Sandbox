@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<header>
+    <h2>Phantomjs2Pdf Test</h2>
+</header>
+
+<button type="button">Test Download</button>
+<script type="text/javascript">
+    $(function() {
+        $('button').on('click', function () {
+            $.ajax({
+                type: 'POST',
+                url: 'api/Phantom',
+                dataType: 'json',
+                cache: false
+            });
+        });
+    })
+</script>

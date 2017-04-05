@@ -1,0 +1,292 @@
+﻿a {
+  color: #4d73ab;
+  text-decoration: none;
+}
+a:hover {
+  color: #2d4465;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Aaux Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("framework/fonts/aaux-pro/aaux-pro-regular.eot");
+  src: url("framework/fonts/aaux-pro/aaux-pro-regular.eot?#iefix") format("embedded-opentype"), url("framework/fonts/aaux-pro/aaux-pro-regular.woff") format("woff"), url("framework/fonts/aaux-pro/aaux-pro-regular.ttf") format("truetype"), url("framework/fonts/aaux-pro/aaux-pro-regular.svg#Aaux Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: normal;
+  src: url("framework/fonts/volkhov/volkhov-regular.eot");
+  src: url("framework/fonts/volkhov/volkhov-regular.eot?#iefix") format("embedded-opentype"), url("framework/fonts/volkhov/volkhov-regular.woff") format("woff"), url("framework/fonts/volkhov/volkhov-regular.ttf") format("truetype"), url("framework/fonts/volkhov/volkhov-regular.svg#Volkhov") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("framework/fonts/roboto/roboto-regular.eot");
+  src: url("framework/fonts/roboto/roboto-regular.eot?#iefix") format("embedded-opentype"), url("framework/fonts/roboto/roboto-regular.woff") format("woff"), url("framework/fonts/roboto/roboto-regular.ttf") format("truetype"), url("framework/fonts/roboto/roboto-regular.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+  src: url("framework/fonts/roboto/roboto-italic.eot");
+  src: url("framework/fonts/roboto/roboto-italic.eot?#iefix") format("embedded-opentype"), url("framework/fonts/roboto/roboto-italic.woff") format("woff"), url("framework/fonts/roboto/roboto-italic.ttf") format("truetype"), url("framework/fonts/roboto/roboto-italic.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src: url("framework/fonts/roboto/roboto-bold.eot");
+  src: url("framework/fonts/roboto/roboto-bold.eot?#iefix") format("embedded-opentype"), url("framework/fonts/roboto/roboto-bold.woff") format("woff"), url("framework/fonts/roboto/roboto-bold.ttf") format("truetype"), url("framework/fonts/roboto/roboto-bold.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+  src: url("framework/fonts/roboto/roboto-bolditalic.eot");
+  src: url("framework/fonts/roboto/roboto-bolditalic.eot?#iefix") format("embedded-opentype"), url("framework/fonts/roboto/roboto-bolditalic.woff") format("woff"), url("framework/fonts/roboto/roboto-bolditalic.ttf") format("truetype"), url("framework/fonts/roboto/roboto-bolditalic.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-family: "icon-font";
+  font-weight: 400;
+  font-style: normal;
+  src: url("framework/fonts/icon-font/icon-font.eot");
+  src: url("framework/fonts/icon-font/icon-font.eot?#iefix") format("embedded-opentype"), url("framework/fonts/icon-font/icon-font.woff") format("woff"), url("framework/fonts/icon-font/icon-font.ttf") format("truetype"), url("framework/fonts/icon-font/icon-font.svg#icon-font") format("svg");
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  color: #1a1a1a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 87.5%;
+  line-height: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol,
+dl,
+li,
+dt,
+dd {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+p,
+textarea,
+blockquote {
+  line-height: 1.4;
+}
+
+h1.page-title {
+  margin-bottom: 0;
+  font-size: 48px;
+  font-family: "Volkhov", Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+  font-size: 12pt;
+  color: #4d4d4d;
+}
+
+body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: 700;
+  font-style: normal;
+}
+
+th {
+  vertical-align: top;
+  text-align: right;
+  white-space: nowrap;
+}
+
+td {
+  vertical-align: top;
+}
+
+.page {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 10.875in;
+  width: 8.375in;
+  padding: 0.5in 0.5in 0.375in 0.375in;
+}
+.page + .page {
+  page-break-before: always;
+  page-break-inside: avoid;
+}
+
+footer {
+  padding-top: 0.25in;
+  border-top: 1pt solid #b3b3b3;
+}
+footer table {
+  border-collapse: collapse;
+}
+footer th,
+footer td,
+footer p {
+  font-size: 8pt;
+}
+footer th {
+  padding-right: 5pt;
+}
+
+.cover-title-wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.cover-title-wrap h1 {
+  width: 5in;
+  margin: 0 auto 0.25in auto;
+}
+.cover-title-wrap span {
+  display: block;
+  font-size: 10pt;
+}
+
+span.cover-company-name {
+  margin-top: 0.0625in;
+  font-size: 16pt;
+  line-height: 1.4;
+}
+
+.cover-logo-wrap {
+  text-align: center;
+}
+.cover-logo-wrap img {
+  max-height: 2in;
+  max-width: 2in;
+}
+
+.description-wrap {
+  -webkit-box-flex: 1;
+}
+.description-wrap h2 {
+  margin-top: 0.5in;
+}
+.description-wrap th {
+  padding: 0.125in 0.125in 0 0;
+}
+.description-wrap td {
+  padding-top: 0.125in;
+}
+
+.description-intro ul {
+  margin-top: 0.125in;
+}
+.description-intro li {
+  padding-left: 0.25in;
+  list-style: disc;
+  list-style-position: inside;
+  line-height: 1.4;
+}
+
+.graph-section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+
+.graph-wrap {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  margin: 0.125in 0 1in 0;
+}
+
+.chart {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  bottom: 0;
+  left: 0;
+  max-height: 2.813in;
+  padding-right: 0.25in;
+}
+
+.notes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  overflow: hidden;
+  font-size: 10pt;
+}

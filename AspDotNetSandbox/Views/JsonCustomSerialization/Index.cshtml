@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Demonstrate Custom serialization</h2>
+
+<button type="button">Test Download</button>
+<script type="text/javascript">
+        $(function() {
+            $('button').on('click', function () {
+                var accountIds = [1, 2, 3, 4, 5];
+                var accountContactIds = [6, 7, 8, 9, 10];
+                var fields = [{ Id: 11, Name: "Test11", IncludeInExport: false }, { Id: 12, Name: "Test12", IncludeInExport: true }, { Id: 13, Name: "Test13", IncludeInExport: false }];
+
+                var jqxhr = $.post('@Url.Action("Serialize", "JsonCustomSerialization")', 
+                                   { accountIds: JSON.stringify(accountIds), accountContactIds: JSON.stringify(accountContactIds), fields: JSON.stringify(fields) },
+                                    function () {
+                                        console.log("success");
+                                    })
+                                    .done(function () {
+                                        console.log("second success");
+                                    })
+                                    .fail(function () {
+                                        console.log("error");
+                                    })
+                                    .always(function () {
+                                        console.log("finished");
+                                    });
+
+                jqxhr.always(function () {
+                    console.log("second finished");
+                });
+            });
+        });
+</script>

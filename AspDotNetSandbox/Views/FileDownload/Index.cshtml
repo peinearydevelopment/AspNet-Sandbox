@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<header>
+    <h2>JqueryFileDownload Test</h2>
+    <a href="http://jqueryfiledownload.apphb.com/">More information</a>
+</header>
+
+
+<button type="button">Test Download</button>
+<script type="text/javascript">
+        $(function() {
+            $('button').on('click', function () {
+                $.fileDownload('@Url.Action("Download", "FileDownload")', {
+                    httpMethod: 'POST',
+                    success: function () {
+                        console.log('success');
+                    },
+                    complete: function () {
+                        console.log('complete');
+                    }
+                });
+            });
+        });
+</script>

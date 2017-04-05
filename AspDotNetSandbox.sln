@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDotNetSandbox", "AspDotNetSandbox\AspDotNetSandbox.csproj", "{1232D624-8E21-413F-A1CB-11559278D365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspDotNetSandbox.Tests", "AspDotNetSandbox.Tests\AspDotNetSandbox.Tests.csproj", "{7A18352A-D195-4D3B-B560-14DF0504881D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{66C6977D-BE91-4622-8389-1CDFD904C3A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1232D624-8E21-413F-A1CB-11559278D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1232D624-8E21-413F-A1CB-11559278D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1232D624-8E21-413F-A1CB-11559278D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1232D624-8E21-413F-A1CB-11559278D365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A18352A-D195-4D3B-B560-14DF0504881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A18352A-D195-4D3B-B560-14DF0504881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A18352A-D195-4D3B-B560-14DF0504881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A18352A-D195-4D3B-B560-14DF0504881D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
